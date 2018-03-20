@@ -35,7 +35,7 @@ app.use((req, res, next) => {
 });
 
 /* eslint-disable no-console */
-mongoose.connect(MONGO_URL, (err) => {
+mongoose.connect(MONGO_URL, err => {
   if (err) {
     console.log(chalk.red('[MongoDB] NOT connected.\n'));
     throw err;
@@ -58,7 +58,7 @@ const host = customHost || null; // Let http.Server use its default IPv6/4 host
 const prettyHost = customHost || 'localhost';
 
 // Start your app.
-app.listen(port, host, (err) => {
+app.listen(port, host, err => {
   if (err) {
     return logger.error(err.message);
   }
