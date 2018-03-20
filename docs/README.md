@@ -4,11 +4,11 @@
 
 - [General](general)
   - [**CLI Commands**](general/commands.md)
-  - [Introduction ](general/introduction.md)
+  - [Introduction](general/introduction.md)
   - [Tool Configuration](general/files.md)
   - [Server Configurations](general/server-configs.md)
   - [Deployment](general/deployment.md) *(currently Heroku and AWS S3 specific)*
-  - [Debugging](general/debugging.md)  
+  - [Debugging](general/debugging.md)
   - [FAQ](general/faq.md)
   - [Gotchas](general/gotchas.md)
   - [Remove](general/remove.md)
@@ -72,8 +72,7 @@ Run `npm start` to see your app at `localhost:3000`
 
 ### Building & Deploying
 
-1. Run `npm run build`, which will compile all the necessary files to the
-`build` folder.
+1. Run `npm run build`, which will compile all the necessary files to the `build` folder.
 
 2. Upload the contents of the `build` folder to your web server's root folder.
 
